@@ -1,0 +1,39 @@
+.u-center-text {
+	text-align: center !important;
+}
+
+.u-margin-buttom-big {
+	margin-bottom: 8rem !important;
+
+	@include respond(tab-port) {
+		margin-bottom: 5rem !important;
+	}
+}
+
+.u-margin-top-big {
+	margin-top: 8rem !important;
+
+	@include respond(tab-port) {
+		margin-top: 5rem !important;
+	}
+}
+
+.u-margin-bottom-huge {
+	margin-bottom: 10rem !important;
+
+	@include respond(tab-port) {
+		margin-bottom: 7rem !important;
+	}
+}
+
+.u-margin-buttom-med {
+	margin-bottom: 4rem !important;
+
+	@include respond(tab-port) {
+		margin-bottom: 2rem !important;
+	}
+}
+
+.u-margin-bottom-small {
+	margin-bottom: 2rem !important;
+}
